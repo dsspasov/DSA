@@ -29,7 +29,7 @@ all numbers that occur odd number of times. ->RemoveOddOccur.java
 of integers (all belonging to the range [0..1000])
 how many times each of them occurs. ->NumberOfOccurrences.java
 
-7. * The majorant of an array of size N is a value ]
+7. *The majorant of an array of size N is a value ]
 that occurs in it at least N/2 + 1 times. Write a 
 program to find the majorant of given array (if exists) ->MajorantOfArray.java
 
@@ -45,7 +45,7 @@ S7 = S2 + 2;
 Using the Queue<T> class write a program to print
 its first 50 members for given N. -> MemebersOfSequence.java
 
-9. * We are given numbers N and M and the following
+9. *We are given numbers N and M and the following
 operations:
 a) N = N+1
 b) N = N+2
