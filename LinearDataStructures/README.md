@@ -4,7 +4,7 @@ LinearDataStructures
 
 Tasks from Telerik Academy
 
-1. Write a program that reads from the console a
+1.Write a program that reads from the console a
 sequence of positive integer numbers. The sequence
 ends when empty line is entered. Calculate and print
 the sum and average of the elements of the
