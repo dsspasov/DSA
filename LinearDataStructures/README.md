@@ -77,7 +77,7 @@ they share common wall. Given a starting position
 distance from this position to any other cell in the
 array. Use "u" for all unreachable cells. Example:
 
-
+| - | - | - | - | - | - |
 | 0 | 0 | 0 | x | 0 | x |					3 4 5 x u x
 | 0 | x | 0 | x | 0 | x |					2 x 6 x u x
 | 0 | * | x | 0 | x | 0 |		------>		1 * x 8 x 10
