@@ -54,22 +54,22 @@ Write a program that finds the shortest sequence of
 operations from the list above that starts from N
 and finishes in M. Hint: use a queue. ->ShortestSequence.java
 
-10.Implement the data structure linked list. Define a
+10. Implement the data structure linked list. Define a
 class ListItem<T> that has two fields: value (of
 type T) and NextItem (of type ListItem<T>).
 Define additionally a class LinkedList<T> with a
 single field FirstElement (of type ListItem<T>).
 ->LinkedList.java
 
-11.Implement the ADT stack as auto-resizable array.
+11. Implement the ADT stack as auto-resizable array.
 Resize the capacity on demand (when no space is
 available to add / insert a new element). -> Stack.java
 
-12.Implement the ADT queue as dynamic linked list.
+12. Implement the ADT queue as dynamic linked list.
 Use generics (LinkedQueue<T>) to allow storing
 different data types in the queue. -> Queue.java
 
-13. * We are given a labyrinth of size N x N. Some of its
+13. *We are given a labyrinth of size N x N. Some of its
 cells are empty (0) and some are full (x). We can
 move from an empty cell to another empty cell if
 they share common wall. Given a starting position
