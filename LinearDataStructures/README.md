@@ -77,20 +77,15 @@ they share common wall. Given a starting position
 distance from this position to any other cell in the
 array. Use "u" for all unreachable cells. Example:
 
-| 1 | 2 | 3 | 4 | 5 | 6 |
-| -- | -- | -- | -- | -- | -- |
-| 0 | 0 | 0 | x | 0 | x |					3 4 5 x u x
-| 0 | x | 0 | x | 0 | x |					2 x 6 x u x
-| 0 | * | x | 0 | x | 0 |		------>		1 * x 8 x 10
-| 0 | x | 0 | 0 | 0 | 0 |					2 x 6 7 8 9
-| 0 | 0 | 0 | x | x | 0 |					3 4 5 x x 10
-| 0 | 0 | 0 | x | 0 | x |					4 5 6 x u x
+
+|    S |   T  |   A |  R   | T    |     |     |   R  |  E   |  S   |  U   |  L   |   T  |
+| --- | --- | --- | --- | --- |  --- | --- |--- | --- | --- | --- | --- | --- |
+| 0 | 0 | 0 | x | 0 | x |			| 3 | 4 | 5 | x | u | x | 
+| 0 | x | 0 | x | 0 | x |			| 2 | x | 6 | x | u | x |	
+| 0 | * | x | 0 | x | 0 |	---> 		| 1 | * | x | 8 | x | 10 |
+| 0 | x | 0 | 0 | 0 | 0 |			| 2 | x | 6 | 7 | 8 | 9 |		
+| 0 | 0 | 0 | x | x | 0 |			| 3 | 4 | 5 | x | x | 10 |		
+| 0 | 0 | 0 | x | 0 | x |			| 4 | 5 | 6 | x | u | x |		
 
 Labyrinth.java
 
-
-
-| ------------- |-------------| -----|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
